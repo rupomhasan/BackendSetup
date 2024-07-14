@@ -1,10 +1,6 @@
 import { Model } from "mongoose";
 
-export type TReview = {
-    email: string;
-    rating: number;
-    comment: string;
-};
+;
 
 export type TMovie = {
     title: string;
@@ -14,7 +10,7 @@ export type TMovie = {
     isDeleted: boolean;
     slug: string;
     viewCount: number;
-    reviews: [TReview];
+    totalRating: number
 };
 
 
